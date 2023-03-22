@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .header__wrapper{
+
+    background: rgba(0, 0, 0, 0.7);
+} */
+
+
+
+
+.header__navigation{
+
+    padding:1.5rem 2rem;
+
+
+}
+
+/* .nav{
+
+    font-size: 18px;
+    list-style: none;
+    top: 100px;
+    right: 0;
+    padding: 0;
+    width: 50px;
+    pointer-events: initial;
+    margin-right: 1.2rem;
+    z-index: -1;
+    margin-right: 7rem;
+
+} */
+
+.border{
+    border-top: 2px solid white;
+}
+
+.gradientbottomDark {
+    position: absolute;
+    width: 100%;
+    height: 10rem;
+    background-image: linear-gradient(transparent,black );
+    bottom: 0;
+  }
+
+
+.nav>ul li{
+
+    line-height: 4rem;
+ 
+}
+
+
+.icon{
+    font-size: 1.5rem;
+}
+
+.banner{
+ 
+    
+    /* -webkit-mask-image: linear-gradient(180deg, red 70%, transparent 100%); */
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.206),transparent ); */
+
+}
+
+.text-stroke {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #F1F1F1;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.listennow{
+    padding: 1.6rem 1.8rem;
+    font-size: 14px;
+   
+    height: 25px;
+    border-color: #50A584;
+    background-color: #50A584;
+    color: #F1F1F1;
+    width: 30px; 
+
+}
+
+
+
+
+element.style {
+}
+.v-align-top {
+    vertical-align: top;
+}
+.v-align-top {
+    vertical-align: top;
+}
+.btn-instinct {
+    border-color: #50A584;
+    background-color: #50A584;
+    color: #F1F1F1;
+}
+.btn-medium {
+    font-size: 14px;
+    padding: 1.6rem 1.8rem;
+    height: 25px;
+}
+.btn {
+    font-size: 16px;
+    font-family: "Monument Extended", "Helvetica", Arial, sans-serif;
+    font-weight: 400;
+    color: #F1F1F1;
+    
+    border: solid 1px #F1F1F1;
+    border-radius: 0;
+    padding: 0.6rem 1.5rem 0.5rem;
+    transition: color 100ms linear, background-color 100ms linear, border-color 100ms linear;
+    cursor: pointer;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    position: relative;
+}
+
+
+.btn-instinct {
+    border-color: #50A584;
+    background-color: #50A584;
+    color: #F1F1F1;
+}
+
+.v-align-top {
+    vertical-align: top;
+}
+
