@@ -3,12 +3,18 @@
 @tailwind utilities;
 
 
-/* .header__wrapper{
+.text-huge{
+ font-size: x-large;
+}
 
-    background: rgba(0, 0, 0, 0.7);
-} */
+.line-height{
+    line-height: 2rem;
+}
 
 
+.font-italic {
+    font-style: italic;
+}
 
 
 .header__navigation{
@@ -17,6 +23,58 @@
 
 
 }
+
+
+.tns-nav {
+    text-align: center;
+}
+
+.tns-nav button {
+    height: 10px;
+    width: 100px;
+    background-color: black;
+    margin: 0 10px;
+    
+}
+
+
+.tns-nav .tns-nav-active {
+    background-color: black;
+}
+
+.tns-controls {
+    position: relative;
+}
+
+
+
+
+.tns-controls {
+    position: relative;
+}
+
+.tns-controls button:first-child{
+
+    position: absolute;
+    top:10rem;
+     font-size: 2rem;
+     z-index: 1;
+     left: -2rem;
+     margin-top: -3rem;
+
+}
+
+.tns-controls button:last-child{
+    font-size: 2rem;
+     position: absolute;
+     right: -2rem;
+     top: 10rem;
+     z-index: 1;
+     margin-top: -3rem;
+   
+}
+
+
 
 /* .nav{
 
@@ -34,7 +92,7 @@
 } */
 
 .border{
-    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
 .gradientbottomDark {
@@ -57,13 +115,7 @@
     font-size: 1.5rem;
 }
 
-.banner{
- 
-    
-    /* -webkit-mask-image: linear-gradient(180deg, red 70%, transparent 100%); */
-    /* background-image: linear-gradient(rgba(255, 255, 255, 0.206),transparent ); */
 
-}
 
 .text-stroke {
     -webkit-text-stroke-width: 1px;
@@ -87,9 +139,6 @@
 
 
 
-
-element.style {
-}
 .v-align-top {
     vertical-align: top;
 }
